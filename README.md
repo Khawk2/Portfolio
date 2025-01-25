@@ -9,4 +9,5 @@
 
 * Flex-box
 
-## Hecho por:###Kevin García### Linkedin: https://www.linkedin.com/in/kevin-alape/
+## Hecho por: 
+**Kevin García** Linkedin: https://www.linkedin.com/in/kevin-alape/
