@@ -1,7 +1,6 @@
 # Portfolio ¡Hola, bienvenido a mi proyecto de portafolio!
 
-![imagen](![image](https://github.com/user-attachments/assets/c7010a38-354d-475c-89aa-f019f5180cad)
-)
+![imagen]((https://github.com/user-attachments/assets/c7010a38-354d-475c-89aa-f019f5180cad)
 
 ## Herramientas utilizadas:
 * HTML
