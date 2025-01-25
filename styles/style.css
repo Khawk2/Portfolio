@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --color-primary: #5f5d9c;
+    --color-secondary: #6196A6;
+    --color-tertiary: #A4CE95;
+    --color-hover: #272727;
+
+    --fuente-montserrat: 'Montserrat', sans-serif;
+    --fuente-krona: 'Krona One', sans-serif;
+
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header{
+    padding: 2% 0% 0% 15%;
+}
+
+.header__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.header__menu__link{
+    font-family: var(--fuente-montserrat);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-tertiary);
+}
+
+.presentation{
+    display: flex;
+    align-items: center;
+    padding: 6% 10%;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.presentation__content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.presentation__content__title{
+    font-size: 2.25rem;
+    font-family: var(--fuente-krona);
+}
+
+strong{
+    color: var(--color-tertiary);
+}
+
+.presentation__content__text{
+    font-size: 1.5rem;
+    font-family: var(--fuente-montserrat);
+}
+
+.presentation__enlaces{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.presentation__enlaces__subtitle{
+    font-family: var(--fuente-krona);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.presentation__enlaces__link{
+    width: 50%;
+    text-align: center;
+    padding: 21.5px 0;
+    border-radius: 8px;
+    font-family: var(--fuente-montserrat);
+    font-size: 1.5rem;
+    font-weight: 600px;
+    text-decoration: none;
+    color: var(--color-secondary);
+    border: 2px solid var(--color-tertiary);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.presentation__enlaces__link:hover{
+    background-color: var(--color-hover);
+}
+
+.image__presentation{
+    width: 50%;
+}
+
+.footer{
+    background-color: var(--color-tertiary);
+    padding: 24px;
+    color: var(--color-primary);
+    text-align: center;
+    font-family: var(--fuente-montserrat);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+@media (max-width: 1200px ){
+
+    .header{
+        padding: 10%;
+    }
+
+    .header__menu{
+        justify-content: center;
+    }
+
+    .presentation{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .presentation__content{
+        width: auto;
+    }
+}
