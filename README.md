@@ -9,5 +9,11 @@
 
 * Flex-box
 
+## Acceso al Proyecto
+
+El proyecto ya está desplegado y puedes acceder a él en el siguiente enlace:
+
+**Interactuar con el proyecto en:**  **[https://portfolio-gamma-one-57.vercel.app/](#)**
+
 ## Hecho por: 
 **Kevin García** Linkedin: https://www.linkedin.com/in/kevin-alape/
